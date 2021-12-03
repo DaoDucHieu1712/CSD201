@@ -65,7 +65,7 @@ public class Main {
                     System.out.println("");
                     break;
                 case 8:
-                    y = Validate.getInt("Enter the node you can Insert before: ", "Invalid !");
+                    y = Validate.getInt("Enter the node you can Insert after: ", "Invalid !");
                     q = m.search(y);
                     x = Validate.getInt("Enter x: ", "Invalid !");
                     m.insertAfter(q, x);
@@ -100,7 +100,7 @@ public class Main {
         System.out.println("5.Remove First");
         System.out.println("6.Remove Last");
         System.out.println("7.Insert Before");
-        System.out.println("8.Insert Before");
+        System.out.println("8.Insert After");
         System.out.println("9.Remove Node");
         System.out.println("10.Reverse");
         System.out.println("11.Exit !");
