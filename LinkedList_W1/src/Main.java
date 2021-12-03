@@ -24,6 +24,8 @@ public class Main {
                         x = Validate.getInt("Enter x: ", "Invalid !");
                         m.addLast(x);
                     }
+                    System.out.println("List : ");
+                    m.traversal();
                     System.out.println("");
                     break;
                 case 2:
@@ -91,16 +93,16 @@ public class Main {
 
     static void menu() {
         System.out.println("---- Menu ----");
-        System.out.println("1.Thêm phần tử");
-        System.out.println("2.Kiểm tra xem danh sách có rỗng hay không ?");
-        System.out.println("3.Chèn một phần tử vào đầu danh sách");
-        System.out.println("4.Chèn một phần tử vào cuối danh sách");
-        System.out.println("5.Xóa phần tử đầu danh sách");
-        System.out.println("6.Xóa phần tử cuối danh sách");
-        System.out.println("7.Chèn 1 phần tử cho trước vào trước một phần tử cho trước");
-        System.out.println("8.Chèn 1 phần tử cho trước vào sau một phần tử cho trước");
-        System.out.println("9.Xóa một phần tử cho trước");
-        System.out.println("10.Đảo ngược danh sách");
+        System.out.println("1.Insert Element");
+        System.out.println("2.Check Empty");
+        System.out.println("3.Add First");
+        System.out.println("4.Add Last");
+        System.out.println("5.Remove First");
+        System.out.println("6.Remove Last");
+        System.out.println("7.Insert Before");
+        System.out.println("8.Insert Before");
+        System.out.println("9.Remove Node");
+        System.out.println("10.Reverse");
         System.out.println("11.Exit !");
     }
 }

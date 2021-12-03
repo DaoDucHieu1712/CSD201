@@ -24,7 +24,7 @@ public class Validate {
                 if (a > 0) {
                     break;
                 } else {
-                    System.out.println("Choose  > 0 !");
+                    System.out.println("Choose > 0 !");
                 }
 
             } catch (NumberFormatException e) {
