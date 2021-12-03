@@ -11,7 +11,7 @@ package StackArray;
  */
 public class Main {
     public static void main(String[] args) {
-        Stack s = new Stack();
+        LinkedListStack s = new LinkedListStack();
         s.push(12);
         s.push(13);
         s.push(21);

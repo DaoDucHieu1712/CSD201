@@ -9,11 +9,11 @@ package StackArray;
  *
  * @author ADMIN
  */
-public class Stack {
+public class LinkedListStack {
 
     Node head;
 
-    public Stack() {
+    public LinkedListStack() {
         head = null;
     }
     
