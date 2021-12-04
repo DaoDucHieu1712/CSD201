@@ -17,7 +17,7 @@ public class Main {
         Node q;
         while (true) {
             menu();
-            int choice = Validate.getChoice("Enter choice: ", "Invalid !", 1, 9);
+            int choice = Validate.getChoice("Enter choice: ", "Invalid !", 1, 10);
             switch (choice) {
                 case 1:
                     int n = Validate.getInt("Enter number element you can create: ", "Invalid !");
