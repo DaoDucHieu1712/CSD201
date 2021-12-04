@@ -1,3 +1,5 @@
+package LinkedList;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -19,9 +21,9 @@ public class Main {
             int choice = Validate.getChoice("Choose: ", "Invalid !", 1, 10);
             switch (choice) {
                 case 1:
-                    int n = Validate.getInt("Enter number element you can insert: ", "Invalid !");
+                    int n = Validate.getInt("Enter number element you can create: ", "Invalid !");
                     for (int i = 0; i < n; i++) {
-                        x = Validate.getInt("Enter x: ", "Invalid !");
+                        x = Validate.getInt("Enter element: ", "Invalid !");
                         m.addLast(x);
                     }
                     System.out.println("List : ");
@@ -93,7 +95,7 @@ public class Main {
 
     static void menu() {
         System.out.println("---- Menu ----");
-        System.out.println("1.Insert Element");
+        System.out.println("1.Create Element");
         System.out.println("2.Check Empty");
         System.out.println("3.Add First");
         System.out.println("4.Add Last");

@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package DoublyLinkedList;
 
 /**
  *
@@ -10,15 +11,13 @@
  */
 public class Node {
 
-    int info;
+    int value;
     Node next;
+    Node prev;
 
-    Node(int info, Node next) {
-        this.info = info;
-        this.next = next;
-    }
-
-    Node(int info) {
-        this(info, null);
+    public Node(int value, Node next_node, Node prev_node) {
+        this.value = value;
+        this.next = next_node;
+        this.prev = prev_node;
     }
 }
