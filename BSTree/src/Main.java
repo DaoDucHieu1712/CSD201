@@ -56,7 +56,7 @@ public class Main {
                     break;
                 case 6:
                     System.out.println("Breadth-first traversal");
-                    t.preOrder(t.root);
+                    t.breadth(t.root);
                     System.out.println("");
                     break;
                 case 7:
