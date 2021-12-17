@@ -107,24 +107,7 @@ public class BSTree {
         inOrder(p.right);
     }
 
-    void breadth(Node p) {
-        if (p == null) {
-            return;
-        }
-        Queue q = new Queue();
-        q.enqueue(p);
-        Node f;
-        while (!q.isEmpty()) {
-            f = q.dequeue();
-            visit(f);
-            if (f.left != null) {
-                q.enqueue(f.left);
-            }
-            if (f.right != null) {
-                q.enqueue(f.right);
-            }
-        }
-    }
+   
 
     void delete(int x) {
         Node f, p;
@@ -195,7 +178,7 @@ public class BSTree {
             }
             //p1 is the right-most node
             p.infor = p1.infor;
-            //p1 hasa not right-son
+            //p1 has a not right-son
             if (fp1 == null) {
                 p.left = q.left;
             } else {

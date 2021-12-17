@@ -1,0 +1,6 @@
+  D  A  B  E  H  I  C  G  F
+A   E
+0   0
+A(0)   E(0)A   E
+0   0
+A(0)   E(0)

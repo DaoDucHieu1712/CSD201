@@ -1,0 +1,1 @@
+Sử dụng để copy and paste khi là bài thi PE, tuy nhiên muốn copy ra đúng output phải hiểu bản chất

@@ -11,10 +11,8 @@
 public class Main {
 
     public static void main(String[] args) {
-
         BSTree t = new BSTree();
         int[] a = new int[10];
-
         while (true) {
             System.out.println("---- Menu ----");
             System.out.println("1.Insert");
@@ -22,9 +20,8 @@ public class Main {
             System.out.println("3.Pre-order traversal");
             System.out.println("4.In-order traversal");
             System.out.println("5.Post-order traversal");
-            System.out.println("6.Breadth-first traversal");
-            System.out.println("7.Exit");
-            int choice = Validate.getChoice("Choice : ", "Invalid !", 1, 7);
+            System.out.println("6.Exit");
+            int choice = Validate.getChoice("Choice : ", "Invalid !", 1, 6);
             switch (choice) {
                 case 1:
                     System.out.println("Add 10 element");
@@ -40,26 +37,21 @@ public class Main {
                     System.out.println("");
                     break;
                 case 3:
-                    System.out.println("Pre-order traversal");
+                    System.out.println("Pre-order traversal"); // tien 
                     t.preOrder(t.root);
                     System.out.println("");
                     break;
                 case 4:
-                    System.out.println("In-order traversal");
+                    System.out.println("In-order traversal"); // trung thu
                     t.inOrder(t.root);
                     System.out.println("");
                     break;
                 case 5:
-                    System.out.println("Post-order traversal");
+                    System.out.println("Post-order traversal");// hau thu 
                     t.postOrder(t.root);
                     System.out.println("");
                     break;
                 case 6:
-                    System.out.println("Breadth-first traversal");
-                    t.breadth(t.root);
-                    System.out.println("");
-                    break;
-                case 7:
                     System.exit(0);
                     break;
             }
